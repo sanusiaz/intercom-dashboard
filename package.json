@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-tailwind": "npx tailwind -i src/css/input.css -o src/assets/css/main.css --watch",
+    "build-tailwind": "npx tailwind -i src/assets/css/input.css -o src/assets/css/main.css --watch",
     "build-php": "php -S localhost:5007"
   },
   "keywords": [],
